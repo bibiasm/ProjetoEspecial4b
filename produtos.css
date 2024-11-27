@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header{
+background-image: url('imagens/background img/basquete3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    padding: 3rem;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2rem;
+
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.produtos .Lista-de-produtos{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 50px;
+}
+
+.produtos .Lista-de-produtos button{
+background-color: blue;
+padding: 8px;
+color: white;
+border-radius: 8px;
+border: 0;
+}
+
+.produtos img{
+    max-width: 200%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+nav a:hover{
+    color: #5BBe42;
+}
